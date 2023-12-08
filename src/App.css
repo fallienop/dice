@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
+.page{
+  width: 20.83vw;
+/* margin-left: 260px; margin-top:  200px; */
+margin: 0 auto;
+margin-top: 10.42vw;
+}
+.page button{
 
+    margin-top: 1.04vw;
+    margin-left: 6.25vw;
+}
+.dices{
+  display: flex;
+  flex-direction: row;
+  gap:1.5625vw;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +37,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+p.no_selection {
+  user-select: none; /* standard syntax */
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
 }
 
 .App-link {
